@@ -1,0 +1,4 @@
+Algunas preguntas que me van surgiendo, como hago una migracion para que solamente me suba una tabla ??
+Como le hago para que en caso de rollback solo me elimine una tabla ??
+
+si me dicen que el sistema de modelos de laravel sirve para mantener un control de versiones de bases de datos: existira un comando para mostrar en consola las versiones de la bd ???

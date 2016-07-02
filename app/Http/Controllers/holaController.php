@@ -10,11 +10,15 @@ class holaController extends Controller
 
     public function index()
     {
-        return "Hola desde controller";
+        return view('index');
+    }
+    public function contacto()
+    {
+        return view('contacto');
+    }
+    public function revi(){
+        return view('revi');
     }
 
-    public function nombre($nombre)
-    {
-        return "Hola mi nombre is". $nombre;
-    }
+
 }

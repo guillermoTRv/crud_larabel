@@ -11,7 +11,18 @@
 |
 */
 
-Route::get('controlador','holaController@index');
+
+Route::get('/','holaController@index');
+Route::get('contacto','holaController@contacto');
+Route::get('revi','holaController@revi');
+
+Route::resource('normal','normalController');
+#Route::get('controlador','holaController@index');
+
+
+
+
+/*
 Route::get('name/{nombre}','holaController@nombre');
 Route::resource('memo','memoController');
 
@@ -28,3 +39,4 @@ Route::get('nombre/{nombre?}',function($nombre = 20){
 Route::get('/', function () {
     return view('welcome');
 });
+*/
